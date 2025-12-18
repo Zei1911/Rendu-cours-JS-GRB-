@@ -1,0 +1,284 @@
+/*Paramètres de base*/
+p {
+color: #ffffff;
+justify-content: center;
+}
+/*Lorsque ma souris est dessus*/
+p:hover {
+color: #ffffff;
+}
+/*Lorsque je clique dessus*/
+p:active {
+color: #0091ff;
+}
+
+body.html {
+    background-color: #aeaeae;
+    color: #212121;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    align-items: center;
+}
+
+body.html.dark {
+    background-color: #4b5d64;
+    color: #ffffff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.carte_texte {
+    text-align: center;
+    color: #ffffff
+}
+
+.presentation-section {
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.presentation-contenu {
+    display: flex;
+    height: 150px;
+    width: calc(100%);
+    background-color: #03374c;
+    margin: 0 90px;
+    justify-content: center;
+}
+
+.sidenav { /*/Sidenav menu/*/
+   height: 100%;
+   width: 250px;
+   position: fixed;
+   z-index: 1;
+   top: 0;
+   left: -250px;
+   background-color: #002948;
+   padding-top: 60px;
+   transition: left 0.5s ease;
+   }
+
+   .sidenav a { /*/Sidenav menu lien/*/
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #aeaeae;
+      display: block;
+      transition: 0.3s;
+   }
+
+   .sidenav a:hover{ /*/quand on passe la souris sur les mots/*/
+      color: #000000;
+   }
+
+   .sidenav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+   }
+
+   .sidenav.active { /*/class active/*/
+      left: 0;
+   }
+
+   .sidenav.close{ /*/class close/*/
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+   }
+
+   .burger-icon span { /*/icon du menu burger/*/
+      display: block;
+      width: 35px;
+      height: 5px;
+      background-color: #002948;
+      margin: 6px 0;
+   }
+
+
+.logo {
+    height: 150px;
+    width: calc(75%/3);
+    background-color: #03374c;
+}
+
+.barre-de-recherche {
+    height: 80px;
+    width: calc(100%/3);
+    background-color: #4b5d64;
+}
+
+.ses-connecter {
+    height: 110px;
+    width: calc(100%/3);
+    background-color: #1b272c;
+}
+
+label {
+  display: block;
+  font:
+    1rem "Fira Sans",
+    sans-serif;
+}
+
+input, label {
+  margin: 0.4rem 0;
+}
+
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+.h1 {
+   align-items: center;
+   font-size: 24px;
+   color: #ffffff;
+   gap: 50px;
+   justify-content: center;
+}
+
+.chois-booster {
+   height: 275px;
+   margin: 0 90px;
+   background-color: #03374c;
+   justify-content: center;
+}
+
+
+.page_Rey_dau {
+    background-color: #03374c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin: 0 90px;
+}
+
+.description_rey_dau {
+    display: flex;
+    gap: 40px;
+}
+
+.section_armures {
+    background-color: #03374c;
+    margin: 0 90px;
+}
+
+.set_armure {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.armure_A {
+    height: 200px;
+    width: auto;
+    background-color: #00ffff;
+}
+
+.armure_B{
+    height: 200px;
+    width: auto;
+    background-color: #5b0155;
+}
+
+.armure_Y {
+    height: 200px;
+    width: auto;
+    background-color: #03154b;
+}
+
+.section_arme_du_monstre{
+    height: auto;
+    background-color: #03374c;
+    margin: 0 90px;
+}
+
+.arme_craftable {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.Fusarbalète_lourd{
+   max-height: 200px;
+   max-width: auto;
+   height: 200px;
+   width: auto;
+}
+
+.Fusarbalète_léger{
+   max-height: 200px;
+   max-width: auto;
+   height: 200px;
+   width: auto;
+}
+
+.Lance{
+   max-height: 200px;
+   max-width: auto;
+   height: 200px;
+   width: auto;
+}
+
+.arc{
+   max-height: 200px;
+   max-width: auto;
+   height: 200px;
+   width: auto;
+}
+
+.épée_bouclier{
+   max-height: 200px;
+   max-width: auto;
+   height: 200px;
+   width: auto;
+}
+
+.corne_de_chasse {
+   max-height: 200px;
+   max-width: auto;
+   height: 200px;
+   width: auto;
+}
+
+.insectoglaive{
+   max-height: 200px;
+   max-width: auto;
+   height: 200px;
+   width: auto; 
+}
+
+.épée_longue{
+   max-height: 200px;
+   max-width: auto;
+   height: 200px;
+   width: auto; 
+}
+
+.liste_monstre {
+    background-color: #03374c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 0 90px;
+}
+
+.bestiaire {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 25px;
+    margin: 0 90px;
+}
+
+.monstre {
+   max-height: 200px;
+   max-width: auto;
+   width: auto; 
+}
+
